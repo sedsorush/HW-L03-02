@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Cabin:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dosis:wght@200..800&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Imperial+Script&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tulpen+One&display=swap');
+
+.card {
+    background-color: #eaeaea;
+    border-radius: 8px;
+    width: 400px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    font-family: Kanit;
+
+    position: relative;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        width: 350px;
+        height: 50px;
+        padding: 8px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        outline: none;
+        font-size: 12px;
+        color: #5a5a5a;
+        font-family: Kanit;
+
+        position: absolute;
+        top: 10px;
+        left: 25px;
+
+        transition: all 250ms;
+    }
+    p {
+        width: 376px;
+        text-align: center;
+        margin: 75px 12px 60px 12px;
+
+        overflow: hidden;
+    }
+    .hidden {
+        display: none;
+    }
+}
+
+.inputBox input:focus {
+    border: 1px solid #777;
+    box-shadow: 0 0 5px #777;
+}
+
+.btn {
+    button { 
+        width: 100px;
+        height: 40px;
+        background-color: #efefef;
+        border: 1px solid #c2c2c2;
+        color: #5b5b5b;
+        font-family: Kanit;
+
+        transition: all 250ms;
+        cursor: pointer;
+
+        position: absolute;
+        bottom: 10px;
+        left: 150px
+    }
+}
+.btn button:hover {
+    box-shadow: 0 0 5px rgb(124, 124, 124);
+    color: #383838;
+}
